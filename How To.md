@@ -20,7 +20,7 @@ You want to be able to access someones amplify project. Heres how.
 2. Make sure you have the credential file that was given to you by the main user of the AWS account. 
 3. Open the credentials file and put it aside for now. 
 4. Open a terminal and make sure you go to the root directory of your repository. 
-    * For the next part you will need to have amplify-cli installed on your system and also dont forget to run `npm install` in the root directory before continuing 
+    * For the next part you will need to have amplify-cli installed on your system and also dont forget to run `npm install` in the root directory before continuing and 'npm install -g @aws-amplify/cli' to install amplify-cli after.
 5. In the root directory run : `amplify configure`
 6. If a browser window opens you can close it and hit enter in the terminal to continue.
 7. Next, the terminal will ask you to select a region. double check with your administrator(person who gave you the user credentials) to check the region that his AWS account is in. 
